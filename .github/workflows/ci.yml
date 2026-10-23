@@ -1,0 +1,31 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+# Lint and syntax checks only. The examples need a Solvecha key, so CI never runs them.
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Node.js syntax
+        run: node --check node/nopecha_npm.mjs
+      - name: Python syntax
+        run: python -m py_compile python/*.py
+      - name: Shell script
+        run: bash -n curl/nopecha_style.sh
+      - name: No keys in the repository
+        run: "! grep -rEn 'slv_[A-Za-z0-9]{20,}' . --exclude-dir=.git"

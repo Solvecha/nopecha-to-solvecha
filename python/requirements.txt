@@ -1,0 +1,4 @@
+nopecha==2.0.1
+requests>=2.32
+capsolver==1.0.7
+python3-capsolver==1.2.2

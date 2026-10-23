@@ -1,0 +1,8 @@
+{
+  "name": "nopecha-to-solvecha-node",
+  "private": true,
+  "type": "module",
+  "license": "MIT",
+  "scripts": { "start": "node nopecha_npm.mjs", "check": "node --check nopecha_npm.mjs" },
+  "dependencies": { "nopecha": "1.0.11" }
+}
