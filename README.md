@@ -1,11 +1,11 @@
 <p align="center">
-  <a href="https://solvecha.com"><img src="https://solvecha.com/site/static/apple-touch-icon.png" width="64" height="64" alt="Solvecha"></a>
+  <a href="https://solvecha.com/?utm_source=github&utm_medium=readme&utm_campaign=nopecha-to-solvecha"><img src="https://solvecha.com/site/static/apple-touch-icon.png" width="64" height="64" alt="Solvecha"></a>
 </p>
 
 <h1 align="center">NopeCHA to Solvecha</h1>
 
 <p align="center">
-  Switch an existing NopeCHA (or CapSolver image) integration to <a href="https://solvecha.com">Solvecha</a> by changing one setting.<br>
+  Switch an existing NopeCHA (or CapSolver image) integration to <a href="https://solvecha.com/?utm_source=github&utm_medium=readme&utm_campaign=nopecha-to-solvecha">Solvecha</a> by changing one setting.<br>
   Runnable Python, Node.js and curl examples, tested against the live API.
 </p>
 
@@ -14,7 +14,7 @@
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="MIT license"></a>
   <a href="https://pypi.org/project/nopecha/"><img src="https://img.shields.io/badge/PyPI-nopecha%202.0.1-3775A9.svg" alt="PyPI nopecha"></a>
   <a href="https://www.npmjs.com/package/nopecha"><img src="https://img.shields.io/badge/npm-nopecha%201.0.11-CB3837.svg" alt="npm nopecha"></a>
-  <a href="https://solvecha.com"><img src="https://img.shields.io/badge/Solvecha-free%20tier%20100%2Fday-5b5bd6.svg" alt="Solvecha free tier"></a>
+  <a href="https://solvecha.com/?utm_source=github&utm_medium=readme&utm_campaign=nopecha-to-solvecha"><img src="https://img.shields.io/badge/Solvecha-free%20tier%20100%2Fday-5b5bd6.svg" alt="Solvecha free tier"></a>
 </p>
 
 ---
@@ -38,7 +38,7 @@ Plain HTTP works too: see [`curl/nopecha_style.sh`](curl/nopecha_style.sh).
 
 ## Quick start
 
-1. Create a free account on [solvecha.com](https://solvecha.com/register) and copy the key from the [dashboard](https://solvecha.com/dashboard). The free tier has 100 successful solves per day.
+1. Create a free account on [solvecha.com](https://solvecha.com/register?utm_source=github&utm_medium=readme&utm_campaign=nopecha-to-solvecha) and copy the key from the [dashboard](https://solvecha.com/dashboard?utm_source=github&utm_medium=readme&utm_campaign=nopecha-to-solvecha). The free tier has 100 successful solves per day.
 2. `export SOLVECHA_API_KEY=slv_...` (never commit a key).
 3. Run an example.
 
@@ -115,11 +115,11 @@ Good to know:
 - reCAPTCHA pictures go in `image_data` as base64. Solvecha does not download `image_urls`.
 - Without `grid`, several pictures count as single tiles. One picture is read by its size: up to 160 px one tile, up to 380 px a 3x3 grid, larger a 4x4 grid. Send `grid` yourself to be exact.
 - CapSolver `question` takes a reCAPTCHA object code (`/m/01pns0`) or the instruction in words.
-- Full details: [Migrating from NopeCHA](https://solvecha.com/docs/migrate-from-nopecha) and [Migrating from CapSolver](https://solvecha.com/docs/migrate-from-capsolver).
+- Full details: [Migrating from NopeCHA](https://solvecha.com/docs/migrate-from-nopecha?utm_source=github&utm_medium=readme&utm_campaign=nopecha-to-solvecha) and [Migrating from CapSolver](https://solvecha.com/docs/migrate-from-capsolver?utm_source=github&utm_medium=readme&utm_campaign=nopecha-to-solvecha).
 
 ## Prices
 
-Only figures that Solvecha publishes on [solvecha.com/compare](https://solvecha.com/compare) with their sources. The competitor figures were read on 16 October 2026. Check the sources again before you decide.
+Only figures that Solvecha publishes on [solvecha.com/compare](https://solvecha.com/compare?utm_source=github&utm_medium=readme&utm_campaign=nopecha-to-solvecha) with their sources. The competitor figures were read on 16 October 2026. Check the sources again before you decide.
 
 | Monthly plan (solves per day) | Solvecha | NopeCHA, billed monthly |
 |---|---|---|
@@ -135,7 +135,7 @@ Only figures that Solvecha publishes on [solvecha.com/compare](https://solvecha.
 
 Solvecha also has a free tier of 100 successful solves per day. NopeCHA source: [nopecha.com/pricing](https://nopecha.com/pricing). Solvecha prices are net: VAT is added at checkout where it applies.
 
-Quality: 99.7 % of sessions on Google's public reCAPTCHA demo got a token within 3 tries (299 of 300 sessions, 17 October 2026, one data-center IP). Other sites and IPs can differ. Method and raw numbers: [solvecha.com/compare](https://solvecha.com/compare).
+Quality: 99.7 % of sessions on Google's public reCAPTCHA demo got a token within 3 tries (299 of 300 sessions, 17 October 2026, one data-center IP). Other sites and IPs can differ. Method and raw numbers: [solvecha.com/compare](https://solvecha.com/compare?utm_source=github&utm_medium=readme&utm_campaign=nopecha-to-solvecha).
 
 ## Browser instead of API?
 
@@ -143,6 +143,6 @@ If you drove a browser with the NopeCHA extension, see [solvecha-playwright-exam
 
 ## Links
 
-[Website](https://solvecha.com) · [Docs](https://solvecha.com/docs) · [Agent skills](https://github.com/Solvecha/solvecha-skills) · [Extension](https://github.com/Solvecha/solvecha-extension)
+[Website](https://solvecha.com/?utm_source=github&utm_medium=readme&utm_campaign=nopecha-to-solvecha) · [Docs](https://solvecha.com/docs?utm_source=github&utm_medium=readme&utm_campaign=nopecha-to-solvecha) · [Agent skills](https://github.com/Solvecha/solvecha-skills) · [Extension](https://github.com/Solvecha/solvecha-extension)
 
 MIT licensed. Solvecha is not affiliated with NopeCHA, CapSolver or Google.
